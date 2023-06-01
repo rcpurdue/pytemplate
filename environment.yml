@@ -1,0 +1,7 @@
+name: pytemplate
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - matplotlib
+prefix: /home/rcampbel/anaconda3/envs/pytemplate
