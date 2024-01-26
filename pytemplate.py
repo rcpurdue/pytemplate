@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
     # Command line args
     parser = argparse.ArgumentParser(description='A Python coding template')
-    parser.add_argument('an_int', type=int, help='(a required, positional arg)')
+    parser.add_argument('--an_int', type=int, help='(a required, positional arg)')
     parser.add_argument('--optional', type=str, default='default', help='(an optional arg)')
     parser.add_argument('--choice', type=str, choices=['choice1', 'choice2'], help='(optional arg w/choices)')
     parser.add_argument('--flag', action='store_true', help='(optional boolean arg')
